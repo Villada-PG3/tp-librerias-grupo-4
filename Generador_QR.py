@@ -49,7 +49,6 @@ def generar_qr_y_abrir():
 root = tk.Tk()
 root.title("Generador de Código QR")
 root.geometry("500x200")
-font_size = 16
 
 url_label = tk.Label(root, text="Ingresa la URL sin formato (https:// ó www):")
 
